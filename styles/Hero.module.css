@@ -1,0 +1,34 @@
+#Hero {
+    background-color: #fce0e7 !important;
+    width: 100vw;
+    height: 60vh;
+
+}
+
+#backimage {
+    position: absolute;
+    width: 309.32px;
+    height: 328.39px;
+    top: 85.21px;
+    right: 0 !important;
+    z-index: 3;
+}
+
+#main-title h1 {
+    color: #F2446E;;
+    font-weight: 600;
+    font-size: 5rem;
+    font: arial;
+    margin-top: 20vh;
+}
+
+.hero-img {
+    position: absolute;
+    width: 1113px;
+    height: 400px;
+    left: 163px;
+    top: 160px;
+    margin-top: 5vh !important;
+    z-index: 2;
+    border-radius: 2%;
+}
