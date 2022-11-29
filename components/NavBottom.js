@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/NavBottom.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareFacebook, faSquareTwitter, faSquareInstagram, faSquarePinterest, faSquareSnapchat } from '@Fortawesome/free-brands-svg-icons'
+import { faSquareFacebook, faSquareTwitter, faSquareInstagram, faSquarePinterest, faSquareSnapchat } from '@fortawesome/free-brands-svg-icons'
 
 
 export default function NavBottom() {
