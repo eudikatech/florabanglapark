@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Activities from '../components/Activities'
 import Footer from '../components/Footer'
-import Facilities from '../components/facilities'
+import Facilities from '../components/Facilities'
 import Atractions from '../components/Atractions'
 import Mappage from "../components/Mappage"
 
