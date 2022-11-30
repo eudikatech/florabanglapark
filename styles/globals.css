@@ -177,6 +177,10 @@ a:hover {
   .navbar-nav{
     margin: 2vw !important;
   }
+  
+    #collbtn {
+    height: 1.5rem !important;
+  }
 
 }
 
