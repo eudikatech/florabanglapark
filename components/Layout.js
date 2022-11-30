@@ -11,6 +11,10 @@ const Layout = ({ children }) => {
       <Nav />
       <div className={styles.container}>
         <Head>
+        <title>FloraBangla Flower Park</title>
+        <meta name="description" content="Flower Park with Resort" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="icon" href="/flowerparkicon.ico" />
         <link href='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.css' rel='stylesheet' />
         <link
           rel="stylesheet"
