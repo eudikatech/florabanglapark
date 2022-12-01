@@ -9,8 +9,8 @@ export default function Atractions() {
             <div className='row'>
                 <div className='col-md-12'>
                         <div class="pagetext text-center justify-content-center">
-                        <Image class="atleaf1" src="/../assets/image/leaf1.svg" width={100} height={100}/>
-                        <Image class="atleaf2" src="/../assets/image/leaf1.svg" width={100} height={100}/>
+                        <Image class="atleaf1" src="/assets/image/leaf1.svg" width={100} height={100}/>
+                        <Image class="atleaf2" src="/assets/image/leaf1.svg" width={100} height={100}/>
                         <h1 className='mb-2 bg-light p-2'>ATRACTIONS</h1>
                         <p id="atractionTxt" className='text-white text-center'>We’ve designed FloraBangla Flower Park to be a verdant treasure trove of experiences that capture the imagination, thanks to the breathtaking landscaping and a range of experiences you can share with friends and family.</p>
                         </div>
