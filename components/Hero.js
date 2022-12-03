@@ -16,7 +16,7 @@ export default function () {
         </header>
         <div className='row'>
             <div className='col-md-12'>
-                <Image className="hero-img" src="/assets/image/flower-park.jpg" alt="Card image cap" width={230} height={120}/>
+                <Image className="hero-img" src="/assets/image/flower-park.jpg" alt="Card image cap" width={5472} height={3648}/>
             </div>
         </div>
 
