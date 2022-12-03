@@ -1,0 +1,2549 @@
+/****
+*****
+**************** florabanglapark.com ********************
+** version: 0.0.1 
+** script type: css
+** author: Rafi
+******
+*****/
+html,
+body {
+  padding: 0 !important; 
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw !important;
+  height: 100%;
+  background-color: #F2446E !important;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+input, button, select, optgroup, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 5px;
+  padding: 5px;
+} 
+
+/* Navbar */
+
+
+
+.navbar {
+  background-color: #fdfaf0 !important;
+  padding-top: 5vh !important;
+  padding-bottom: 3vh !important;
+  color: #531607;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #D27643;
+}
+
+
+.svg-inline--fa {
+  height: 3rem;
+  color: #531607 !important;
+}
+
+.svg-inline--fa:hover {
+  color:#D27643 !important;
+}
+
+a {
+  font-weight: 700;
+  margin-left: 2vw;
+  color: #531607 ;
+}
+
+a:hover {
+  color:#D27643 !important;
+}
+
+.evtbtn {
+  font-weight: 600 !important;
+  font-size: 1.2rem !important;
+  text-decoration: none !important;
+  color: #531607 !important;
+}
+
+.evtbtn:hover {
+  color: #D27643 !important;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link  {
+  text-decoration: none; 
+  position: relative; 
+  margin-left: 3vw;
+  color: #531607;
+}   
+
+.navbar-nav{
+  margin: 2vw;
+}
+
+#navbarSupportedContent li:first-child a::after{
+      position: absolute;
+      content: '';
+      height: 2px;
+      bottom: -4px; 
+
+   
+      /* center - (optional) use with adjusting width   */
+          margin-left: 8px;
+          left: 0;
+          right: 1;
+          width: 50%;
+          background: #531607;
+     
+     /* optional animation */
+          -o-transition:.5s;
+          -ms-transition:.5s;
+          -moz-transition:.5s;
+          -webkit-transition:.5s;
+          transition:.5s;
+}
+
+
+/* optional hover classNamees used with anmiation */
+#navbarSupportedContent li:first-child a:hover::after {
+     width: 80%;
+     background: #D27643;
+}
+
+.rightlink {
+  margin-right: 1vw;
+
+}
+
+#tkt {
+  position:sticky;
+  background-color: #D27643;
+  margin-right: 8vw;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#tkt:hover {
+  background-color: #531607 !important;
+  color: #fff !important;
+}
+
+#event {
+  height: 1rem !important;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+/* Navbar End */
+
+/* Hero */
+
+#Hero {
+  background: url(/assets/image/leaf6.svg);
+  background-color: #fcf1db !important;
+  width: 100vw;
+  height: 150vh;
+  position: absolute;
+  padding-top: 10vh;
+}
+
+.logoimg {
+  margin-top: 15vh;
+  position: absolute;
+  justify-content: center;
+  margin-left: 38%;
+}
+
+.hero-img {
+  position: absolute;
+  height: 70vh !important;
+  width: 90vw !important;
+  left: 6%;
+  top: 60vh;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  z-index: 1;
+
+}
+
+#backimage {
+  position: absolute;
+  width: 200.32px !important;
+  height: 200.39px !important;
+  top: 10px !important;
+  right: 0 !important;
+  z-index: 0;
+  background: #fcf1db;
+}
+
+#main-title h1 {
+  color: #F2446E;;
+  font-weight: 600;
+  font-size: 5rem;
+  font: arial;
+  margin-top: 20vh;
+}
+
+.btncard {
+  z-index: 3;
+  width: 20vw;
+  background: rgba(255, 255, 255) !important;
+  width: 902px;
+  left: 170px;
+  top: 125vh;
+  position: absolute;
+}
+
+.card-body {
+  background: rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+.flex-item {
+  text-align: center;
+}
+
+.flexitm, i {
+  font-size: 2.5rem;
+  color: #531607 !important;
+}
+
+.flexitm,i:hover {
+  color: #D27643;
+}
+
+.flexitm, h1,h2,h3,h4,h5,h6 {
+  font-size: 1rem;
+  color: #531607;
+}
+
+.flexout{
+  border-left: 1px solid #CDC9C9;
+}
+
+
+#herobottom {
+    background-color:#F2446E !important;
+    height: 50vh;
+    width: 100vw;
+  
+}
+
+#herobottomimg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: -5vw;
+  top: 105vh;
+  transform: rotate(-190.23deg);
+  z-index: 3;
+}
+
+#herobottomimg2 {
+  position: absolute;
+  width: 300.32px !important;
+  height: 300.39px !important;
+  top: 110vh;
+  right: 0 !important;
+  z-index: 3;
+  overflow: hidden;
+
+}
+
+/* Hero End */
+
+
+
+/* Atractions */
+
+#atractions {
+  background-color: #F2446E !important;
+  position: absolute;
+  top: 150vh !important;
+  width: 100vw !important;
+  justify-content: center !important;
+  align-items: center !important;
+  z-index: 3;
+  overflow: hidden;
+  padding-bottom: 10vh;
+  font: "Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#atraction {
+  margin-left: 1vw !important;
+  padding: 15vh;
+}
+
+#atractions h1 {
+  color:#F2446E !important;
+  font-weight: 600;
+  background: #fff;
+  font-size: 3rem;
+  padding: 2vh;
+  padding-left: 3vw;
+  width: 30vw;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 35%;
+  margin-bottom: 5vh !important;
+}
+
+#atractionTxt{
+  max-width: calc(80em * 0.5) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 5vw;
+}
+
+
+.cri {
+  height: 100vh !important;
+}
+
+
+.atcard {
+  padding: 0 !important;
+}
+
+
+.atcardimg {
+  width: 100%;
+  height: 200px;
+}
+
+.pagetext {
+  margin-bottom: 1vh !important;
+}
+
+
+
+.mid{
+  scale: 1.2;
+  margin: 2vw;
+}
+
+.crinner {
+  position: relative;
+  width: 100% !important;
+  overflow: visible !important;
+  margin-left: 8vw;
+  margin-top: 5vh;
+}
+
+.cri {
+  position: relative;
+  display: none;
+  float: left;
+  margin-right: -100%;
+  backface-visibility: visible;
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.conpv {
+  position: absolute;
+  top: -50vh !important;
+  margin-left: -5vw;
+}
+
+.connx {
+  position: absolute;
+  top: -50vh !important;
+  margin-left: -5vw;
+}
+
+.atleaf1 {
+  position: absolute;
+  top: -12vh;
+  right: 0;
+}
+
+.atleaf2 {
+  position: absolute;
+  top: -12vh;
+  left: -5vw;
+  transform: rotateY(-140deg);
+}
+
+
+
+/* Atractions End */
+
+/* Activities */
+
+#activities {
+  position: absolute;
+  background-color: #f55e81 !important;
+  top: 300vh !important;
+  padding: 8vw;
+  width: 100vw;
+  color: #fff !important;
+  z-index: 5;
+}
+
+
+#activities-heading h1 {
+  color:#F2446E;
+  font-weight: 600;
+  background: #fff;
+  font-size: 3rem;
+  padding: 2vh;
+  padding-left: 3vw;
+  width: 30vw;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 30%;
+}
+
+.actimg {
+  border-radius: 10% 0px;
+}
+
+
+#qoute {
+  position: absolute;
+  color: #fff;
+  top: 50vw !important;
+  z-index: 3;
+  font-weight: 500;
+  font-size: 3rem !important;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.actleaf1 {
+  position: absolute;
+  width: 30vw;
+  z-index: 3;
+  right: -5vw;
+  margin-top: -50vh;
+}
+
+.actleaf2 {
+  position: absolute;
+  width: 50vw;
+  z-index: 3;
+  left: -20vw;
+  margin-top: -40vh;
+}
+
+
+
+/* Activities End */
+/* Facilities */
+
+#facilities {
+  position: absolute;
+  top:645vh;
+  width: 100vw;
+  height: 50vh;
+  background: url(/assets/image/green-texture.webp);
+  background-color: #D27643;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw;
+  z-index: 1;
+}
+
+.fac {
+  padding: 0 20vw;
+  padding-bottom: 5vh;
+  margin-left: 1vw;
+  margin-right: 5vw;
+}
+.fac-slider-icon {
+  height: 4rem;
+}
+
+
+/* Facilities End */
+
+/* ParkInstruction */
+
+#parkinstruction {
+  position: absolute;
+  top: 480vh;
+  width: 1000vw;
+  height: 160vh;
+  background-color: #fff;
+  justify-content: center;
+  padding: 2vw;
+  width: 100vw ;
+}
+
+#parkinstruction h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55%;
+  padding: 2vw;
+  color: #F2446E;
+  
+}
+
+
+
+/* ParkInsturction End */
+
+/* Map Page*/
+
+#mappage {
+  background: url(/assets/image/leaf5.svg);
+  position: absolute;
+  top: 530vh;
+  width: 100vw !important;
+  height: 115vh;
+  background-color: #fdfaf0;
+  justify-content: center;
+  width: 100vw ;
+  z-index: 1;
+}
+
+#send {
+  margin-left: 40vw;
+  position:sticky;
+  background-color: #D27643;
+  margin-right: 8vw;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#send:hover {
+  background-color: #531607 !important;
+  color: #fff !important;
+}
+
+#gethereimg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: -5vw;
+  top: 10vh !important;
+  transform: rotate(-190.23deg);
+  z-index: 3;
+}
+
+/* Map Page End*/
+
+/* Footer */
+
+
+
+
+
+#footer {
+  position: absolute;
+  background-color:#252524 !important;
+  width: 100vw;
+  top: 696vh !important;
+  bottom: 0 !important;
+  z-index: 1;
+
+}
+
+#footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navbar {
+  background-color:#FCF1DB !important;
+}
+
+#navbarNav {
+  background-color:#FCF1DB !important;
+}
+
+.footer-icon {
+  height: 2rem !important;
+}
+
+#navbottom a {
+  color: #000;
+  font-weight: 600;
+}
+
+
+
+
+
+
+/* Footer End */
+
+
+/* Booking Page */
+
+#booking {
+  background: url(/assets/image/leaf5.svg);
+  width: 100vw;
+  position: absolute;
+  justify-content: center;
+  overflow:scroll;
+}
+
+.booking-img {
+  width: 100px;
+  height: 100px;
+  margin: 2vw;
+  padding: 2vw 3vw;
+}
+
+form {
+  margin: 10vw 2vw;
+  padding: 10vw;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+input {
+  background: rgb(249, 224, 224) !important;
+}
+
+.htmlForm-group {
+  padding-bottom: 2vw;
+}
+
+.htmlForm-group label {
+  padding-bottom: 1vw;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+  background: rgb(249, 224, 224) !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  background: rgb(249, 224, 224) !important;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+#phone{
+  height: 1rem;
+  color: #531607 !important;
+}
+
+#phone:hover{
+  height: 1rem;
+  color:#D27643 !important;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 40px;
+}
+
+#submitbtn {
+  margin-top: 20px;
+}
+
+#backbtn {
+  margin-left: -5vw;
+  margin-top: -22vh;
+  padding: 1vw;
+}
+
+#backbtn:hover {
+  color: #f1f1f1 !important;
+}
+
+/* Booing Page End */
+
+/* normal screen */
+
+@media only screen and (min-width: 601px) and (max-width: 1600px) {
+
+html,
+body {
+  padding: 0 !important; 
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw !important;
+  height: 100%;
+  background-color: #F2446E !important;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+input, button, select, optgroup, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 5px;
+  padding: 5px;
+} 
+
+/* Navbar */
+
+
+
+.navbar {
+  background-color: #fdfaf0 !important;
+  padding-top: 5vh !important;
+  padding-bottom: 3vh !important;
+  color: #531607;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #D27643;
+}
+
+
+.svg-inline--fa {
+  height: 3rem;
+  color: #531607 !important;
+}
+
+.svg-inline--fa:hover {
+  color:#D27643 !important;
+}
+
+a {
+  font-weight: 700;
+  margin-left: 2vw;
+  color: #531607 ;
+}
+
+a:hover {
+  color:#D27643 !important;
+}
+
+.evtbtn {
+  font-weight: 600 !important;
+  font-size: 1.2rem !important;
+  text-decoration: none !important;
+  color: #531607 !important;
+}
+
+.evtbtn:hover {
+  color: #D27643 !important;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link  {
+  text-decoration: none; 
+  position: relative; 
+  margin-left: 3vw;
+  color: #531607;
+}   
+
+.navbar-nav{
+  margin: 2vw;
+}
+
+#navbarSupportedContent li:first-child a::after{
+      position: absolute;
+      content: '';
+      height: 2px;
+      bottom: -4px; 
+
+   
+      /* center - (optional) use with adjusting width   */
+          margin-left: 8px;
+          left: 0;
+          right: 1;
+          width: 50%;
+          background: #531607;
+     
+     /* optional animation */
+          -o-transition:.5s;
+          -ms-transition:.5s;
+          -moz-transition:.5s;
+          -webkit-transition:.5s;
+          transition:.5s;
+}
+
+
+/* optional hover classNamees used with anmiation */
+#navbarSupportedContent li:first-child a:hover::after {
+     width: 80%;
+     background: #D27643;
+}
+
+.rightlink {
+  margin-right: 1vw;
+
+}
+
+#tkt {
+  position:sticky;
+  background-color: #D27643;
+  margin-right: 8vw;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#tkt:hover {
+  background-color: #531607 !important;
+  color: #fff !important;
+}
+
+#event {
+  height: 1rem !important;
+  margin-right: 5px;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+
+
+
+/* Navbar End */
+
+/* Hero */
+
+#Hero {
+  background: url(/assets/image/leaf6.svg);
+  background-color: #fcf1db !important;
+  width: 100vw;
+  height: 150vh;
+  position: absolute;
+  padding-top: 10vh;
+}
+
+.logoimg {
+  margin-top: 15vh;
+  position: absolute;
+  justify-content: center;
+  margin-left: 38%;
+}
+
+.hero-img {
+  position: absolute;
+  height: 70vh !important;
+  width: 90vw !important;
+  left: 6%;
+  top: 60vh;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  z-index: 1;
+
+}
+
+#backimage {
+  position: absolute;
+  width: 200.32px !important;
+  height: 200.39px !important;
+  top: 10px !important;
+  right: 0 !important;
+  z-index: 0;
+  background: #fcf1db;
+}
+
+#main-title h1 {
+  color: #F2446E;;
+  font-weight: 600;
+  font-size: 5rem;
+  font: arial;
+  margin-top: 20vh;
+}
+
+.btncard {
+  z-index: 3;
+  width: 30vw;
+  background: rgba(255, 255, 255) !important;
+  width: 902px;
+  left: 170px;
+  top: 125vh;
+  position: absolute;
+}
+
+.card-body {
+  background: rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+.flex-item {
+  text-align: center;
+}
+
+.flexitm, i {
+  font-size: 2.5rem;
+  color: #531607 !important;
+}
+
+.flexitm,i:hover {
+  color: #D27643;
+}
+
+.flexitm, h1,h2,h3,h4,h5,h6 {
+  font-size: 1rem;
+  color: #531607;
+}
+
+.flexout{
+  border-left: 1px solid #CDC9C9;
+}
+
+
+#herobottom {
+    background-color:#F2446E !important;
+    height: 50vh;
+    width: 100vw;
+  
+}
+
+#herobottomimg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: -5vw;
+  top: 105vh;
+  transform: rotate(-190.23deg);
+  z-index: 3;
+}
+
+#herobottomimg2 {
+  position: absolute;
+  width: 300.32px !important;
+  height: 300.39px !important;
+  top: 110vh;
+  right: 0 !important;
+  z-index: 3;
+  overflow: hidden;
+
+}
+
+/* Hero End */
+
+/* Activities */
+
+#activities {
+  position: absolute;
+  background-color: #f55e81 !important;
+  top: 300vh !important;
+  padding: 8vw;
+  width: 100vw;
+  color: #fff !important;
+  z-index: 5;
+}
+
+
+#activities-heading h1 {
+  color:#F2446E;
+  font-weight: 600;
+  background: #fff;
+  font-size: 3rem;
+  padding: 2vh;
+  padding-left: 3vw;
+  width: 30vw;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 30%;
+}
+
+.actimg {
+  border-radius: 10% 0px;
+}
+
+
+#qoute {
+  position: absolute;
+  color: #fff;
+  top: 50vw !important;
+  z-index: 3;
+  font-weight: 500;
+  font-size: 3rem !important;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.actleaf1 {
+  position: absolute;
+  width: 30vw;
+  z-index: 3;
+  right: -5vw;
+  margin-top: -50vh;
+}
+
+.actleaf2 {
+  position: absolute;
+  width: 50vw;
+  z-index: 3;
+  left: -20vw;
+  margin-top: -40vh;
+}
+
+
+
+/* Activities End */
+
+/* Atractions */
+
+#atractions {
+  background-color: #F2446E !important;
+  position: absolute;
+  top: 190vh;
+  width: 100vw !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  overflow: hidden;
+  padding-bottom: 10vh;
+  font: "Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#atraction {
+  margin-left: 2VW;
+  padding: 10vh;
+}
+
+#atractions h1 {
+  color:#F2446E !important;
+  font-weight: 600;
+  background: #fff;
+  font-size: 3rem;
+  padding: 2vh;
+  padding-left: 3vw;
+  width: 30vw;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 35%;
+  margin-bottom: 5vh !important;
+}
+
+#atractionTxt{
+  max-width: calc(80em * 0.5) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 23%;
+}
+
+
+.cri {
+  height: 100vh !important;
+}
+
+
+.atcard {
+  padding: 0 !important;
+}
+
+
+.atcardimg {
+  width: 100%;
+  height: 200px;
+}
+
+.pagetext {
+  margin-bottom: 1vh !important;
+}
+
+
+
+.mid{
+  scale: 1.2;
+  margin: 2vw;
+}
+
+.crinner {
+  position: relative;
+  width: 100% !important;
+  overflow: visible !important;
+  margin-left: 8vw;
+  margin-top: 5vh;
+}
+
+.cri {
+  position: relative;
+  display: none;
+  float: left;
+  margin-right: -100%;
+  backface-visibility: visible;
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.conpv {
+  position: absolute;
+  top: -50vh !important;
+  margin-left: -5vw;
+}
+
+.connx {
+  position: absolute;
+  top: -50vh !important;
+  margin-left: -5vw;
+}
+
+.atleaf1 {
+  position: absolute;
+  top: -12vh;
+  right: 0;
+}
+
+.atleaf2 {
+  position: absolute;
+  top: -12vh;
+  left: -5vw;
+  transform: rotateY(-140deg);
+}
+
+
+
+/* Atractions End */
+/* Facilities */
+
+#facilities {
+  position: absolute;
+  top:645vh;
+  width: 100vw;
+  height: 50vh;
+  background: url(/assets/image/green-texture.webp);
+  background-color: #D27643;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw;
+  z-index: 1;
+}
+
+.fac {
+  padding: 0 20vw;
+  padding-bottom: 5vh;
+  margin-left: 1vw;
+  margin-right: 5vw;
+}
+.fac-slider-icon {
+  height: 4rem;
+}
+
+
+/* Facilities End */
+
+/* ParkInstruction */
+
+#parkinstruction {
+  position: absolute;
+  top: 480vh;
+  width: 1000vw;
+  height: 160vh;
+  background-color: #fff;
+  justify-content: center;
+  padding: 2vw;
+  width: 100vw ;
+}
+
+#parkinstruction h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55%;
+  padding: 2vw;
+  color: #F2446E;
+  
+}
+
+
+
+/* ParkInsturction End */
+
+/* Map Page*/
+
+#mappage {
+  background: url(/assets/image/leaf5.svg);
+  position: absolute;
+  top: 530vh;
+  width: 100vw !important;
+  height: 115vh;
+  background-color: #fdfaf0;
+  justify-content: center;
+  width: 100vw ;
+  z-index: 1;
+}
+
+#send {
+  margin-left: 40vw;
+  position:sticky;
+  background-color: #D27643;
+  margin-right: 8vw;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#send:hover {
+  background-color: #531607 !important;
+  color: #fff !important;
+}
+
+#gethereimg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: -5vw;
+  top: 10vh !important;
+  transform: rotate(-190.23deg);
+  z-index: 3;
+}
+
+/* Map Page End*/
+
+/* Footer */
+
+
+
+
+
+#footer {
+  position: absolute;
+  background-color:#252524 !important;
+  width: 100vw;
+  top: 696vh !important;
+  bottom: 0 !important;
+  z-index: 1;
+
+}
+
+#footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navbar {
+  background-color:#FCF1DB !important;
+}
+
+#navbarNav {
+  background-color:#FCF1DB !important;
+}
+
+.footer-icon {
+  height: 2rem !important;
+}
+
+#navbottom a {
+  color: #000;
+  font-weight: 600;
+}
+
+
+
+
+
+
+/* Footer End */
+
+
+/* Booking Page */
+
+#booking {
+  background: url(/assets/image/leaf5.svg);
+  width: 100vw;
+  position: absolute;
+  justify-content: center;
+  overflow:scroll;
+}
+
+.booking-img {
+  width: 100px;
+  height: 100px;
+  margin: 2vw;
+  padding: 2vw 3vw;
+}
+
+form {
+  margin: 10vw 2vw;
+  padding: 10vw;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+input {
+  background: rgb(249, 224, 224) !important;
+}
+
+.htmlForm-group {
+  padding-bottom: 2vw;
+}
+
+.htmlForm-group label {
+  padding-bottom: 1vw;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+  background: rgb(249, 224, 224) !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  background: rgb(249, 224, 224) !important;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+#phone{
+  height: 1rem;
+  color: #531607 !important;
+}
+
+#phone:hover{
+  height: 1rem;
+  color:#D27643 !important;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 40px;
+}
+
+#submitbtn {
+  margin-top: 20px;
+}
+
+#backbtn {
+  margin-left: -5vw;
+  margin-top: -22vh;
+  padding: 1vw;
+}
+
+#backbtn:hover {
+  color: #f1f1f1 !important;
+}
+
+}
+
+/* normal screen end */
+/* 1920x1080 Dektop end */
+
+/* widescreen start */
+
+@media only screen and (min-width: 1601px) and (max-width: 2560px) {
+  /* Navbar  */
+
+
+
+  .navbar {
+    background-color: #fdfaf0 !important;
+    padding-top: 1vh !important;
+    padding-bottom: 3vh !important;
+    color: #531607;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+    height: 15vh !important;
+  }
+  
+  .nav-link:hover {
+    color: #D27643;
+  }
+  
+  
+  .svg-inline--fa {
+    height: 3rem;
+    color: #531607 !important;
+  }
+  
+  .svg-inline--fa:hover {
+    color:#D27643 !important;
+  }
+  
+  a {
+    font-weight: 700;
+    margin-left: 2vw;
+    color: #531607 ;
+  }
+  
+  a:hover {
+    color:#D27643 !important;
+  }
+  
+  .evtbtn {
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    text-decoration: none !important;
+    color: #531607 !important;
+  }
+  
+  .evtbtn:hover {
+    color: #D27643 !important;
+  }
+  
+  
+  .navbar-expand-lg .navbar-nav .nav-link  {
+    text-decoration: none; 
+    position: relative; 
+    margin-left: 3vw;
+    color: #531607;
+  }   
+  
+  .navbar-nav{
+    margin: 2vw;
+  }
+  
+  #navbarSupportedContent li:first-child a::after{
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: -4px; 
+  
+     
+        /* center - (optional) use with adjusting width   */
+            margin-left: 8px;
+            left: 0;
+            right: 1;
+            width: 50%;
+            background: #531607;
+       
+       /* optional animation */
+            -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            transition:.5s;
+  }
+  
+  
+  /* optional hover classNamees used with anmiation */
+  #navbarSupportedContent li:first-child a:hover::after {
+       width: 80%;
+       background: #D27643;
+  }
+  
+  .rightlink {
+    margin-right: 1vw;
+    padding-top: 2vh !important;
+  
+  }
+  
+  #tkt {
+    position:sticky;
+    background-color: #D27643;
+    margin-right: 8vw;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #tkt:hover {
+    background-color: #531607 !important;
+    color: #fff !important;
+  }
+  
+  #event {
+    height: 1rem !important;
+    margin-right: 5px;
+  }
+  
+  
+  
+  
+  /* widescreen Navbar End */
+
+  #Hero {
+    background: url(/assets/image/leaf6.svg);
+    background-color: #fcf1db !important;
+    width: 102vw !important;
+    height: 130vh;
+    position: absolute;
+    padding-top: 10vh;
+  }
+  
+  .logoimg {
+    margin-top: 16vh;
+    position: absolute;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 40vw;
+    width: 20vw !important;
+    height: 10vw !important;
+  }
+  
+  .hero-img {
+    position: absolute;
+    height: 50vh !important;
+    width: 80vw;
+    left: 4.5vw;
+    top: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+    z-index: 2;
+  
+  }
+  
+  #backimage {
+    position: absolute;
+    width: 20vw !important;
+    height: 30vh !important;
+    top: 10vh !important;
+    right: 0 !important;
+    z-index: 0;
+    background: #fcf1db;
+  }
+  
+  #main-title h1 {
+    color: #F2446E;
+    font-weight: 600;
+    font-size: 5rem;
+    font: arial;
+    margin-top: 20vh;
+  }
+  
+  .btncard {
+    z-index: 3;
+    width: 50vw !important;
+    background: rgba(255, 255, 255) !important;
+    left: 25vw;
+    top: 115vh;
+    position: absolute;
+  }
+  
+  .card-body {
+    background: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .flex-item {
+    text-align: center;
+  }
+  
+  .flexitm, i {
+    font-size: 2.5rem;
+    color: #531607 !important;
+  }
+  
+  .flexitm,i:hover {
+    color: #D27643;
+  }
+  
+  .flexitm, h1,h2,h3,h4,h5,h6 {
+    font-size: 1rem;
+    color: #531607;
+  }
+  
+  .flexout{
+    border-left: 1px solid #CDC9C9;
+  }
+  
+  
+  #herobottom {
+      background-color:#F2446E !important;
+      height: 50vh;
+      width: 100vw;
+    
+  }
+  
+  #herobottomimg {
+    position: absolute;
+    width: 70vw;
+    height: 30vh;
+    left: -5vw;
+    top: 105vh;
+    transform: rotate(-190.23deg);
+    z-index: 3;
+  }
+  
+  #herobottomimg2 {
+    position: absolute;
+    width: 70vw;
+    height: 30vh;
+    top: 110vh;
+    right: 0 !important;
+    z-index: 3;
+    overflow: hidden;
+  
+  }  
+
+  /* widescreen hero end */
+  /* widescreen attraction start */
+
+
+  #atractions {
+    background-color: #F2446E !important;
+    position: absolute;
+    top: 140vh;
+    width: 100vw !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    overflow: hidden;
+    padding-bottom: 10vh;
+    font: "Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+#atraction {
+  margin-left: 10vw !important;
+  padding: 2vh;
+  justify-content: center !important;
+  align-self: center !important;
+
+}
+
+#atractions h1 {
+  color:#F2446E !important;
+  font-weight: 600;
+  background: #fff;
+  font-size: 3rem;
+  padding: 2vh;
+  padding-left: 2vw;
+  width: 30vw;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 35vw;
+  margin-bottom: 1vh !important;
+}
+
+#atractionTxt{
+  max-width: calc(120em * 0.5) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 25vw;
+  margin-bottom: 10vh;
+}
+
+
+.cri {
+  height: 100vh !important;
+}
+
+
+.atcard {
+  padding: 0 !important;
+}
+
+
+.atcardimg {
+  width: 100%;
+  height: 200px;
+}
+
+.pagetext {
+  margin-bottom: 1vh !important;
+}
+
+
+
+.mid{
+  scale: 1.2;
+  margin: 2vw;
+}
+
+.crinner {
+  position: relative;
+  width: 100% !important;
+  overflow: visible !important;
+  margin-left: 8vw;
+  margin-top: 5vh;
+}
+
+.cri {
+  position: relative;
+  display: none;
+  float: left;
+  margin-right: -100%;
+  backface-visibility: visible;
+  transition: transform 0.5s ease-in-out !important;
+}
+
+.conpv {
+  position: absolute;
+  top: -50vh !important;
+  margin-left: -5vw;
+}
+
+.connx {
+  position: absolute;
+  top: -50vh !important;
+  margin-left: -5vw;
+}
+
+.atleaf1 {
+  position: absolute;
+  top: -12vh;
+  right: 0;
+}
+
+.atleaf2 {
+  position: absolute;
+  top: -12vh;
+  left: -5vw;
+  transform: rotateY(-140deg);
+}
+
+  /* atraction end */
+
+  /* Activities */
+
+#activities {
+  position: absolute;
+  background-color: #f55e81 !important;
+  top: 230vh !important;
+  padding: 5vw !important;
+  width: 100vw;
+  height: 150vh;
+  padding-left: 10vw !important;
+  color: #fff !important;
+  z-index: 5;
+}
+
+
+#activities-heading h1 {
+  color:#F2446E;
+  font-weight: 600;
+  background: #fff;
+  font-size: 3rem;
+  padding: 2vh;
+  padding-left: 3vw;
+  width: 30vw;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 22vw;
+}
+
+.actimg {
+  border-radius: 10% 0px;
+}
+
+
+#qoute {
+  position: absolute;
+  color: #fff;
+  top: 50vw !important;
+  z-index: 3;
+  font-weight: 500;
+  font-size: 3rem !important;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.actleaf1 {
+  position: absolute;
+  width: 30vw;
+  z-index: 3;
+  right: -5vw;
+  margin-top: -30vh;
+}
+
+.actleaf2 {
+  position: absolute;
+  width: 50vw;
+  z-index: 3;
+  left: -20vw;
+  margin-top: -20vh;
+}
+
+
+
+/* Activities End */
+
+
+
+/* ParkInstruction */
+
+#parkinstruction {
+  position: absolute;
+  top: 480vh;
+  width: 1000vw;
+  height: 160vh;
+  background-color: #fff;
+  justify-content: center;
+  padding: 2vw;
+  width: 100vw ;
+}
+
+#parkinstruction h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55%;
+  padding: 2vw;
+  color: #F2446E;
+  
+}
+
+
+
+/* ParkInsturction End */
+
+/* Map Page*/
+
+#mappage {
+  background: url(/assets/image/leaf5.svg);
+  position: absolute;
+  top: 380vh;
+  width: 100vw !important;
+  height: 80vh;
+  background-color: #fdfaf0;
+  justify-content: center;
+  width: 100vw;
+  z-index: 1;
+}
+
+#send {
+  margin-left: 45vw;
+  position:sticky;
+  background-color: #D27643;
+  margin-right: 8vw;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10vw;
+  color: #fff;
+  cursor: pointer;
+}
+
+#send:hover {
+  background-color: #531607 !important;
+  color: #fff !important;
+}
+
+#gethereimg {
+  position: absolute;
+  width: 30vw !important;
+  height: 40vh !important;
+  left: -5vw;
+  top: 6vh !important;
+  transform: rotate(-190.23deg);
+}
+
+#mapimg {
+  width: 40vw;
+  height: 45vh;
+}
+
+/* Map Page End*/
+
+/* Facilities */
+
+#facilities {
+  position: absolute;
+  top:460vh;
+  width: 100vw;
+  height: 50vh;
+  background: url(/assets/image/green-texture.webp);
+  background-color: #D27643;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw;
+  z-index: 1;
+}
+
+.fac {
+  padding: 0 20vw;
+  padding-bottom: 5vh;
+  margin-left: 1vw;
+  margin-right: 5vw;
+}
+.fac-slider-icon {
+  height: 4rem;
+}
+
+
+/* Facilities End */
+
+/* Footer */
+
+
+
+
+
+#footer {
+  position: absolute;
+  background-color:#252524 !important;
+  width: 100vw;
+  top: 510vh !important;
+  bottom: 0 !important;
+  z-index: 1;
+
+}
+
+#footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navbar {
+  background-color:#FCF1DB !important;
+}
+
+#navbarNav {
+  background-color:#FCF1DB !important;
+}
+
+.footer-icon {
+  height: 2rem !important;
+}
+
+#navbottom a {
+  color: #000;
+  font-weight: 600;
+}
+
+
+
+
+
+
+/* Footer End */
+
+
+/* Booking Page */
+
+#booking {
+  background: url(/assets/image/leaf5.svg);
+  width: 100vw;
+  position: absolute;
+  justify-content: center;
+  overflow:scroll;
+}
+
+.booking-img {
+  width: 100px;
+  height: 100px;
+  margin: 2vw;
+  padding: 2vw 3vw;
+}
+
+form {
+  margin: 10vw 2vw;
+  padding: 10vw;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+input {
+  background: rgb(249, 224, 224) !important;
+}
+
+.htmlForm-group {
+  padding-bottom: 2vw;
+}
+
+.htmlForm-group label {
+  padding-bottom: 1vw;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+  background: rgb(249, 224, 224) !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  background: rgb(249, 224, 224) !important;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+#phone{
+  height: 1rem;
+  color: #531607 !important;
+}
+
+#phone:hover{
+  height: 1rem;
+  color:#D27643 !important;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 40px;
+}
+
+#submitbtn {
+  margin-top: 20px;
+}
+
+#backbtn {
+  margin-left: -5vw;
+  margin-top: -22vh;
+  padding: 1vw;
+}
+
+#backbtn:hover {
+  color: #f1f1f1 !important;
+}
+
+/* Booing Page End */
+
+
+}
+  /* widescreen end */
+
+
+/* Navbar moble version */
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+
+  .navbar {
+    background-color: #fdfaf0 !important;
+    padding-top: 5vh !important;
+    padding-bottom: 3vh !important;
+    color: #531607;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100vw !important;
+  }
+
+  .navbar-nav{
+    margin: 2vw !important;
+  }
+
+  #collbtn {
+    height: 1.5rem !important;
+  }
+
+
+/* Navbar moble version end */
+/* Hero moble version */
+
+
+  #Hero {
+    background: url(/assets/image/leaf6.svg);
+    background-color: #fcf1db !important;
+    width: 102vw !important;
+    height: 80vh;
+    position: absolute;
+    padding-top: 10vh;
+  }
+  
+  .logoimg {
+    margin-top: 12vh;
+    position: absolute;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  
+  .hero-img {
+    position: absolute;
+    height: 25vh !important;
+    width: 90vw;
+    left: 6%;
+    top: 40vh;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+    z-index: 2;
+  
+  }
+  
+  #backimage {
+    position: absolute;
+    width: 200.32px !important;
+    height: 200.39px !important;
+    top: 10vh !important;
+    right: 0 !important;
+    z-index: 0;
+    background: #fcf1db;
+  }
+  
+  #main-title h1 {
+    color: #F2446E;
+    font-weight: 600;
+    font-size: 5rem;
+    font: arial;
+    margin-top: 20vh;
+  }
+  
+  .btncard {
+    display: none !important;
+  }
+  
+  .card-body {
+    background: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .flex-item {
+    text-align: center;
+  }
+  
+  .flexitm, i {
+    font-size: 2.5rem;
+    color: #531607 !important;
+  }
+  
+  .flexitm,i:hover {
+    color: #D27643;
+  }
+  
+  .flexitm, h1,h2,h3,h4,h5,h6 {
+    font-size: 1rem;
+    color: #531607;
+  }
+  
+  .flexout{
+    border-left: 1px solid #CDC9C9;
+  }
+  
+  
+  #herobottom {
+      background-color:#F2446E !important;
+      height: 50vh;
+      width: 100vw;
+    
+  }
+  
+  #herobottomimg {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: -5vw;
+    top: 105vh;
+    transform: rotate(-190.23deg);
+    z-index: 3;
+  }
+  
+  #herobottomimg2 {
+    position: absolute;
+    width: 300.32px !important;
+    height: 300.39px !important;
+    top: 110vh;
+    right: 0 !important;
+    z-index: 3;
+    overflow: hidden;
+  
+  }  
+
+
+/* Hero moble version end */
+/* Activities moble version */
+
+
+
+  #activities {
+    background-color: #F2446E !important;
+    top: 90vh !important;
+    padding: 8vw;
+    width: 100vw !important;
+    color: #fff !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  
+  #activities-heading h1 {
+    color:#F2446E;
+    font-weight: 600;
+    background: #fff;
+    font-size: 2rem;
+    padding: 1vh; 
+    padding-left: 3vw;
+    width: 60vw;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 5vw;
+  }
+
+  #activities h3 {
+    font-weight: 600;
+    font-size: 2rem !important;
+    width: 60vw;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 10vw;
+    margin-top: 5vh;
+  }
+  
+  .actimg {
+    border-radius: 10% 0px;
+    width: 70vw;
+    height: 40vh;
+    margin-left: 2vw;
+  }
+  
+  
+  #qoute {
+    position: absolute;
+    color: #fff;
+    top: 50vw !important;
+    z-index: 3;
+    font-weight: 500;
+    font-size: 3rem !important;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+  .actleaf1 {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    z-index: 3;
+    right: -10vw !important;
+    margin-top: -28vh;
+  }
+  
+  .actleaf2 {
+    position: absolute;
+    width: 50vw;
+    height: 40vh;
+    z-index: 3;
+    left: -20vw;
+    margin-top: -30vh;
+  }
+
+
+
+
+/* Activities moble version end */
+/* Atractions moble version */
+
+
+
+  #atractions {
+    display: none;
+  }
+
+ 
+
+
+
+
+/* Atractions moble version end */
+
+/* Facilities moble version */
+
+  #facilities {
+    position: absolute;
+    top:560vh;
+    width: 100vw !important;
+    height: 60vh;
+    background: url(/assets/image/green-texture.webp);
+    background-color: #D27643;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    z-index: 1;
+  }
+
+  #facilities .col-sm-4 {
+    margin-bottom: 3vh !important;
+  }
+  
+  .fac {
+    padding: 2vh;
+    margin: 25vw;
+  }
+
+  .fac-slider-icon {
+    height: 2rem;
+  }
+
+
+
+
+/* Facilities moble version End */
+
+/* map moble version */
+
+
+
+  #mappage {
+    background: url(/assets/image/leaf5.svg);
+    position: absolute;
+    top: 460vh;
+    width: 100vw !important;
+    height: 110vh !important;
+    background-color: #fdfaf0;
+    justify-content: center;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  #mappage Input,textarea {
+    width: 60vw;
+  }
+  #mappage textarea {
+    width: 60vw;
+  }
+  #send {
+    margin-left: 2vw;
+    position:sticky;
+    background-color: #D27643;
+    margin-right: 8vw;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    width: 55vw;
+  }
+  
+  #send:hover {
+    background-color: #531607 !important;
+    color: #fff !important;
+  }
+
+  .contact-form {
+    display: none;
+  }
+  
+  #gethereimg {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: -5vw;
+    top: 10vh !important;
+    transform: rotate(-190.23deg);
+    z-index: 3;
+  }
+
+  #mapimg {
+    width: 70vw !important;
+    height: 30vh !important;
+    margin-left: -5vw;
+  }
+  
+
+
+
+/* map moble version end */
+/* Footer moble version */
+
+  #footer {
+    position: absolute;
+    background-color:#252524 !important;
+    width: 100vw !important;
+    top: 620vh !important;
+    bottom: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 1;
+  }
+  
+  #footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  #footer .col-sm-3 {
+    width: 100vw !important;
+  }
+
+  .hd {
+    display: none;
+  }
+
+
+  #footer img {
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #navbar {
+    background-color:#FCF1DB !important;
+  }
+  
+  #navbarNav {
+    background-color:#FCF1DB !important;
+  }
+  
+  .collapse {
+    justify-content: center !important;
+  }
+
+  
+  .footer-icon {
+    height: 1.8rem !important;
+  }
+
+
+  #navbottom {
+    position: absolute;
+    width: 20% !important;
+    height: 30% !important;
+  }
+
+  #navbottom a {
+    color: #000;
+    font-weight: 600;
+  }
+
+
+  #navbottom .nav-item:last-child {
+    margin-right: 2vw;
+  }
+
+  .navbar-nav {
+    margin-top: -2vh !important;
+    margin-right: 28vw;
+  }
+
+  .navbar-nav .icon {
+    height: 15vh !important;
+    margin-left: -60vw !important;
+  }
+
+  
+
+
+
+
+/* Footer moble version end */
+/* booking page mobile version */
+
+
+
+  #booking {
+    background: url(/assets/image/leaf5.svg);
+    width: 100vw;
+    position: absolute;
+    justify-content: center;
+    overflow:scroll;
+  }
+  
+  .booking-img {
+    width: 100px;
+    height: 100px;
+    margin: 2vw;
+    padding: 2vw 3vw;
+  }
+  
+  form {
+    margin: 10vw 2vw;
+    margin-top: 20vh;
+    padding: 10vw;
+    margin-left: 5%;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  input {
+    background: rgb(249, 224, 224) !important;
+  }
+  
+  .htmlForm-group {
+    padding-bottom: 2vw;
+  }
+  
+  .htmlForm-group label {
+    padding-bottom: 1vw;
+  }
+  
+  .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    background: rgb(249, 224, 224) !important;
+  }
+  
+  .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    background: rgb(249, 224, 224) !important;
+  }
+  
+  button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+    margin-top: 2px;
+  }
+  
+  #phone{
+    height: 1rem;
+    color: #531607 !important;
+  }
+  
+  #phone:hover{
+    height: 1rem;
+    color:#D27643 !important;
+  }
+  
+  .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 40px;
+  }
+  
+  #submitbtn {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  #backbtn {
+    margin-left: -5vw;
+    margin-top: -5vh;
+    padding: 2vw;
+    width: 40%;
+  }
+  
+  #backbtn:hover {
+    color: #f1f1f1 !important;
+  }
+
+}
+
+/* booking page moble version end */
