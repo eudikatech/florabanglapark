@@ -1533,7 +1533,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     height: 70vh !important;
     width: 80vw;
     left: 4.5vw;
-    top: 60vh;
+    top: 55vh;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
     z-index: 2;
@@ -1641,7 +1641,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   }
 
 #atraction {
-  margin-left: 10vw !important;
+  margin-left: 3vw !important;
   padding: 2vh;
   justify-content: center !important;
   align-self: center !important;
