@@ -28,7 +28,7 @@ export default function Footer() {
                                 <div class="d-flex text-white">
                                       <FontAwesomeIcon className='footer-icon text-white' icon={faEnvelope} />
                                       <Link href={`/#activities`} className="nav-link">
-                                        support@florabanglapark.com
+                                        support.flowerpark@gardencentrebd.com
                                       </Link>
                                 </div>
                             </li> 
