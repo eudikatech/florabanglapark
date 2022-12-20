@@ -1530,7 +1530,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   
   .hero-img {
     position: absolute;
-    height: 50vh !important;
+    height: 70vh !important;
     width: 80vw;
     left: 4.5vw;
     top: 60vh;
