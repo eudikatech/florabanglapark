@@ -75,8 +75,7 @@ export default function Atractions() {
                                                 <Image class="atcardimg" src="/assets/image/flowershop.webp"  width={300} height={300}/>                                                <div class="p-2">
                                                 <h6>Flower Shop</h6>
                                                 <p>Inhouse flower shop, providing the freshest and most beautiful flowers in town and you can also find variety of unique gifts and home 
-                                                    decor items. From scented candles and gourmet chocolates, artisanal pottery, 
-                                                    we have something for everyone.</p>
+                                                    decor item, we have something for everyone.</p>
                                                 </div>
                                                 </div>
                                             </div>
