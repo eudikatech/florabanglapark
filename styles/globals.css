@@ -1634,6 +1634,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     width: 100vw !important;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 3;
     overflow: hidden;
     padding-bottom: 10vh;
