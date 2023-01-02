@@ -84,10 +84,11 @@ export default function Atractions() {
                                         <div class="col-sm-3 mid">
                                             <div class="card">
                                                 <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flower-park.jpg"  width={100} height={100}/>
+                                                <Image class="atcardimg" src="/assets/image/playground.webp"  width={100} height={100}/>
                                                 <div class="p-2">
-                                                <h6>Lorem Ipsum</h6>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h6>Play Ground</h6>
+                                                <p>Welcome to our playground! We are a family-friendly destination that offers endless fun and adventure for kids of all ages. 
+                                                Our state-of-the-art play structures are designed to challenge and engage kids while also promoting physical and social development.</p>
                                                 </div>
                                                 </div> 
                                             </div>
@@ -95,10 +96,10 @@ export default function Atractions() {
                                         <div class="col-sm-3">
                                             <div class="card">
                                                 <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flower-park.jpg"  width={100} height={100}/>
+                                                <Image class="atcardimg" src="/assets/image/photozone.webp"  width={100} height={100}/>
                                                 <div class="p-2">
-                                                <h6>Lorem Ipsum</h6>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h6>Photo Zone</h6>
+                                                <p>Our photo zone for all of your imaging needs, We can't wait to help you create lasting memories!</p>
                                                 </div>
                                                 </div>
                                             </div>
