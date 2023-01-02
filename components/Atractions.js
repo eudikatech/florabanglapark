@@ -72,9 +72,16 @@ export default function Atractions() {
                                         <div class="col-sm-3">
                                             <div class="card">
                                                 <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flower-park.jpg"  width={300} height={300}/>                                                <div class="p-2">
-                                                <h6>Lorem Ipsum</h6>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <Image class="atcardimg" src="/assets/image/flowershop.webp"  width={300} height={300}/>                                                <div class="p-2">
+                                                <h6>Flower Shop</h6>
+                                                <p>Welcome to our flower shop, providing the freshest and most beautiful flowers in town. 
+                                                    Our team of experienced florists hand-pick each stem and carefully arrange them into 
+                                                    stunning bouquets and arrangements.Our flowers are perfect for any occasion – birthdays, 
+                                                    anniversaries, weddings, and more. We also offer a variety of services, including custom 
+                                                    arrangements, delivery, and event decor.In addition to our wide selection of flowers, 
+                                                    we also carry a variety of unique gifts and home decor items. From scented candles and 
+                                                    gourmet chocolates, to plush stuffed animals and artisanal pottery, 
+                                                    we have something for everyone.</p>
                                                 </div>
                                                 </div>
                                             </div>
