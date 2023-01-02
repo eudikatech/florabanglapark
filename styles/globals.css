@@ -2208,6 +2208,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     width: 60vw;
     justify-content: center !important;
     align-items: center !important;
+    text-align: center;
     margin-left: 5vw;
   }
 
