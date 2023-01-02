@@ -74,10 +74,8 @@ export default function Atractions() {
                                                 <div class="card-body atcard">
                                                 <Image class="atcardimg" src="/assets/image/flowershop.webp"  width={300} height={300}/>                                                <div class="p-2">
                                                 <h6>Flower Shop</h6>
-                                                <p>Inhouse flower shop, providing the freshest and most beautiful flowers in town. 
-                                                    We also offer a variety of services, including custom arrangements, delivery, and event decor.
-                                                     here you can also find variety of unique gifts and home 
-                                                    decor items. From scented candles and gourmet chocolates, to plush stuffed animals and artisanal pottery, 
+                                                <p>Inhouse flower shop, providing the freshest and most beautiful flowers in town and you can also find variety of unique gifts and home 
+                                                    decor items. From scented candles and gourmet chocolates, artisanal pottery, 
                                                     we have something for everyone.</p>
                                                 </div>
                                                 </div>
