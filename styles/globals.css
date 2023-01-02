@@ -2205,7 +2205,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     background: #fff;
     font-size: 2rem;
     padding: 1vh; 
-    padding-left: 3vw;
+    padding-left: 2vw;
     width: 60vw;
     justify-content: center !important;
     align-items: center !important;
