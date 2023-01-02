@@ -2094,7 +2094,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     position: absolute;
     height: 25vh !important;
     width: 90vw;
-    left: 6%;
+    left: 3%;
     top: 40vh;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
