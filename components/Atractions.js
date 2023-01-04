@@ -72,7 +72,7 @@ export default function Atractions() {
                                         <div class="col-sm-3">
                                             <div class="card">
                                                 <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flowershop.webp"  width={300} height={300}/>                                                <div class="p-2">
+                                                <Image class="atcardimg" src="/assets/image/slide-1.webp"  width={300} height={300}/>                                                <div class="p-2">
                                                 <h6>Flower Shop</h6>
                                                 <p>Inhouse flower shop, providing the freshest and most beautiful flowers in town and you can also find variety of unique gifts and home 
                                                     decor item, we have something for everyone.</p>
@@ -83,7 +83,7 @@ export default function Atractions() {
                                         <div class="col-sm-3 mid">
                                             <div class="card">
                                                 <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/playground.webp"  width={100} height={100}/>
+                                                <Image class="atcardimg" src="/assets/image/slide-3.webp"  width={100} height={100}/>
                                                 <div class="p-2">
                                                 <h6>Play Ground</h6>
                                                 <p>We are a family-friendly destination that offers endless fun and adventure for kids of all ages and engage kids while also promoting physical and social development.</p>
@@ -94,7 +94,7 @@ export default function Atractions() {
                                         <div class="col-sm-3">
                                             <div class="card">
                                                 <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/photozone.webp"  width={100} height={100}/>
+                                                <Image class="atcardimg" src="/assets/image/slide-2.webp"  width={100} height={100}/>
                                                 <div class="p-2">
                                                 <h6>Photo Zone</h6>
                                                 <p>Our photo zone for all of your imaging needs, We can't wait to help you create lasting memories!</p>
@@ -105,42 +105,6 @@ export default function Atractions() {
                                     </div>
                                     </div>
 
-                                    <div class="carousel-item cri">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="card">
-                                                <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flower-park.jpg"  width={100} height={100}/>
-                                                <div class="p-2">
-                                                <h6>Lorem Ipsum</h6>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 mid">
-                                            <div class="card">
-                                                <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flower-park.jpg"  width={100} height={100}/>
-                                                <div class="p-2">
-                                                <h6>Lorem Ipsum</h6>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesettingy.</p>
-                                                </div>
-                                                </div> 
-                                            </div> 
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="card">
-                                                <div class="card-body atcard">
-                                                <Image class="atcardimg" src="/assets/image/flower-park.jpg"  width={100} height={100}/>
-                                                <div class="p-2">
-                                                <h6>Lorem Ipsum</h6>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     </div>
                                 </div>
                                 
