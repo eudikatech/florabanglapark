@@ -291,7 +291,7 @@ col-sm-3 {
   background-color: #F2446E !important;
   position: absolute;
   top: 150vh !important;
-  width: 85vw !important;
+  width: 90vw !important;
   justify-content: center !important;
   align-items: center !important;
   z-index: 3;
@@ -1096,7 +1096,7 @@ a:hover {
   background-color: #F2446E !important;
   position: absolute;
   top: 190vh;
-  width: 85vw !important;
+  width: 90vw !important;
   justify-content: center;
   align-items: center;
   z-index: 3;
@@ -1686,7 +1686,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     background-color: #F2446E !important;
     position: absolute;
     top: 140vh;
-    width: 85vw !important;
+    width: 90vw !important;
     justify-content: center;
     align-items: center;
     z-index: 3;
