@@ -77,7 +77,7 @@ export default function Mappage() {
                     
                     <h1>Contact Us</h1>
                     <h6>Email</h6>
-                    <form onSubmit={ContactMsgHandler}>
+                    <form class="map" onSubmit={ContactMsgHandler}>
                     <input type="text" 
                         className="form-control bg-white" 
                         id="email" 
