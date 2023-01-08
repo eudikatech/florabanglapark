@@ -78,7 +78,7 @@ a:hover {
 }
 
 col-sm-3 {
-  width: 20%;
+  width: 20% !important;
 }
 
 .evtbtn {
