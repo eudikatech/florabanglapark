@@ -1441,7 +1441,9 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 @media only screen and (min-width: 1601px) and (max-width: 2560px) {
   /* Navbar  */
 
-
+   col-sm-3 {
+     width: 20% !important;
+  }
 
   .navbar {
     background-color: #fdfaf0 !important;
