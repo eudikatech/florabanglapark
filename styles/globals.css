@@ -291,7 +291,7 @@ col-sm-3 {
   background-color: #F2446E !important;
   position: absolute;
   top: 150vh !important;
-  width: 100vw !important;
+  width: 85vw !important;
   justify-content: center !important;
   align-items: center !important;
   z-index: 3;
@@ -323,7 +323,7 @@ col-sm-3 {
   max-width: calc(80em * 0.5) !important;
   justify-content: center !important;
   align-items: center !important;
-  margin-left: 5vw;
+  margin-left: 10vw;
 }
 
 
@@ -1096,7 +1096,7 @@ a:hover {
   background-color: #F2446E !important;
   position: absolute;
   top: 190vh;
-  width: 100vw !important;
+  width: 85vw !important;
   justify-content: center;
   align-items: center;
   z-index: 3;
@@ -1106,7 +1106,7 @@ a:hover {
 }
 
 #atraction {
-  margin-left: 2VW;
+  margin-left: 10VW;
   padding: 10vh;
 }
 
@@ -1686,7 +1686,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     background-color: #F2446E !important;
     position: absolute;
     top: 140vh;
-    width: 100vw !important;
+    width: 85vw !important;
     justify-content: center;
     align-items: center;
     z-index: 3;
@@ -1696,7 +1696,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   }
 
 #atraction {
-  margin-left: 3vw !important;
+  margin-left: 10vw !important;
   padding: 2vh;
   justify-content: center !important;
   align-self: center !important;
