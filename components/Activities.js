@@ -22,9 +22,9 @@ export default function Activities() {
                     <Image className="justify-center actimg" src="/assets/image/flowerbed.webp" width={300} height={400} alt="logo"/>
                     </div>
                     <div className="col-md-4 mt-5">
-                    <h3 className='text-white'>Lakeshore</h3>
+                    <h3 className='text-white'>village atmosphere</h3>
                     <hr/><br/>
-                    <Image className="justify-center actimg" src="/assets/image/lakeview.webp" width={300} height={400} alt="logo"/>
+                    <Image className="justify-center actimg" src="/assets/image/village_atmosphere.webp" width={300} height={400} alt="logo"/>
                     </div>  
                     <div className="col-md-4">
                     <h3 className='text-white'>Food Court</h3>
