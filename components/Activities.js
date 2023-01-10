@@ -22,7 +22,7 @@ export default function Activities() {
                     <Image className="justify-center actimg" src="/assets/image/flowerbed.webp" width={300} height={400} alt="logo"/>
                     </div>
                     <div className="col-md-4 mt-5">
-                    <h3 className='text-white'>village atmosphere</h3>
+                    <h3 className='text-white'>Village Atmosphere</h3>
                     <hr/><br/>
                     <Image className="justify-center actimg" src="/assets/image/village_atmosphere.webp" width={300} height={400} alt="logo"/>
                     </div>  
